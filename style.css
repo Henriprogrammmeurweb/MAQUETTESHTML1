@@ -1,0 +1,230 @@
+@font-face 
+{
+    font-family: "Poppins";
+    src: local("Poppins"), url("assets/fonts/Poppins-Regular.ttf");
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    
+    
+}
+body{
+    font-family: "Poppins",Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 78px;
+    background-color: #fff;
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.25);
+}
+header nav .logo{
+    margin-left: 15px;
+    height: 95%;
+    width: 125px;
+}
+header nav .logo img{
+    width: 100%;
+    height: 100%;
+
+}
+header nav .menus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav .menus li{
+    list-style: none;
+    margin-right: 15px;
+}
+header nav .menus li a{
+    color: #2b386a;
+    text-decoration: none;
+}
+#login{
+    border: 1px solid #7451eb;
+    text-decoration: none;
+    padding: 10px;
+    color: #2b386a;
+    border-radius: 5px;
+}
+
+
+.description{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+    padding: 10px 15px;
+    margin-top: 5px;
+    background-color: #2f5b8a;
+    filter: brightness(.89);
+   
+}
+.description p{
+    color: #fff;
+}
+.description img{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
+.services{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: url('assets/img/copy_of_guides-green-energy-825x293.ai_66.png') center/cover no-repeat;
+    height: 100px;
+    filter: brightness(.80);
+
+}
+.services .services-texte{
+    margin-left: 2%;
+}
+
+.services .img-services img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.25);
+    min-height: 100vh;
+    margin: 2%;
+}
+.container .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 15px 0;
+
+}
+.container .content .product-liste{
+    width: 390px;
+    height: 520px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 3px;
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.25);
+    margin: 5px;
+    
+    
+
+}
+.container .content .product-liste .content-img::after{
+    content: "";
+    position: absolute;
+    background-color: #2f5b8a;
+    height: 25px;
+    width: 25px;
+    bottom: 0;
+    top: 200px;
+    right: 0;
+    border-radius: 0px 0px 0px 25px;
+}
+.container .content .product-liste .content-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 98%;
+    height: 200px;
+    background-color: #2f5b8a;
+    border-radius: 0px 0px 0px 25px;
+    position: relative;
+    filter: brightness(.89);
+    margin-top: 3px;
+    
+}
+.container .content .product-liste .content-img .img-content{
+    width: 150px;
+    height: 150px;
+    
+    
+}
+.container .content .product-liste .content-img .img-content img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center center;
+    border: 2px solid white;
+    
+}
+.container .content .product-liste .content-texte{
+    background-color: #fff;
+}
+.container .content .product-liste .content-texte h3{
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0;
+    color: #2b386a;
+}
+.container .content .product-liste .content-texte p{
+    text-align: justify;
+    margin: 5px;
+}
+.container .content .product-liste .read-more{
+    margin-top: 10px;
+
+}
+.container .content .product-liste .read-more a{
+    text-align: center;
+    background-color: rgb(29, 142, 218);
+    padding: 8px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.contacts{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.25);
+    width: 95%;
+    margin: 25px 0;
+    padding: 25px 0;
+    padding-left: 15px;
+    background-color: #49617b;
+    color: white;
+    filter: brightness(.89);
+}
+.contacts .links{
+    margin-top: 15px;
+}
+.contacts .links a img{
+    width: 30px;
+    height: 30px;
+    margin: 8px;
+}
+
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #173549;
+    height: 60px;
+    color: white;
+    
+}
